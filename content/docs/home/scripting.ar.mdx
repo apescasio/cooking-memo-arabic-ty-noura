@@ -1,5 +1,5 @@
 ---
-title: لماذا أستخدم السكربتات
+title: لماذا أستخدم النصوص البرمجية
 ---
 import { Step, Steps } from 'fumadocs-ui/components/steps';
 import DynamicCallout from '../../../components/DynamicCalloutHome';
@@ -53,7 +53,7 @@ if (-not (Test-Path -Path $log_folder)) {
 $date = $(Get-Date -Format 'dd-MM-yyyy_HH-mm-ss')
 Start-Transcript -Path "$log_folder\$date-Install-ANTIVIRUS.log" -Force
 
-### التحقق مما إذا كان برنامج مضاد الفيروسات مثبتاً بالفعل ###
+### التحقق مما إذا كان برنامج مضاد الفيروسات مثبتاً مسبقا ###
 
 ### إذا لم يكن البرنامج مثبتاً، قم بتثبيت أحدث ملف .msi ###
 
@@ -76,3 +76,9 @@ if (-not (Test-Path -Path $antivirus_folder)) {
 ### إيقاف التسجيل ###
 
 Stop-Transcript
+
+```
+
+ببضعة أسطر من التعليمات البرمجية، حوّلتُ مهمةً متكررة إلى إجراءٍ آليٍّ بسيط.
+
+وهذا ما أحبّه في البرمجة النصية: توفير الوقت، وتقليل الأخطاء، والأهم من ذلك، زيادة كفاءة المهام.

@@ -56,7 +56,7 @@ export const LEARNING_CYCLE = {
     en: 'Once a month, I break everything (my own PC and my lab tenant) to rebuild it all back « brick by brick ». Whether it be installing apps on my PC via PowerShell, or recreating Copilot AI Agents or Intune Full Cloud Autopilot profiles.',
     fr: 'Une fois par mois, je casse tout (mon propre PC et mon lab tenant) pour tout reconstruire « brique par brique ». Que ce soit l\'installation d\'applications sur mon PC via PowerShell, ou recréer les agents Copilot IA Studio ou les profils Intune Full Cloud Autopilot.',
     es: 'Una vez al mes, rompo todo (mi propia PC y mi lab tenant) para reconstruirlo todo « ladrillo por ladrillo ». Ya sea instalando aplicaciones en mi PC vía PowerShell, o recreando Agentes de IA Copilot o perfiles de Intune Full Cloud Autopilot.',
-    ar: 'مرة كل شهر، أكسر كل شيء (جهازي الخاص وtenant المختبر) لأعيد بنائه "حجرًا بحجر". سواء كان ذلك بتثبيت التطبيقات على جهازي عبر PowerShell، أو إعادة إنشاء وكلاء Copilot AI أو ملفات تعريف Intune Full Cloud Autopilot.'
+    ar: 'مرةً شهريًا، أُفكك كل شيء (جهاز الكمبيوتر الخاص بي ومستأجر المختبر) لإعادة بنائه بالكامل "حجرًا بحجر". سواءً كان ذلك تثبيت تطبيقات على جهاز الكمبيوتر عبر PowerShell، أو إعادة إنشاء وكلاء Copilot AI أو ملفات تعريف Intune Full Cloud Autopilot.'
 
   }
 };
@@ -83,7 +83,7 @@ export const CULTURE_CYCLE = {
       en: 'Quote from HakitaDev => « Culture shouldn\'t exist only for those who can afford it. »\n\nNothing worthwhile would\'ve truly existed if we didn\'t have « easy » access.',
       fr: 'Quote from HakitaDev => « La culture ne devrait pas être un luxe réservé aux plus fortunés. »\n\nRien de valable n’aurait vraiment existé sans un accès « facile. »',
       es: 'Quote from HakitaDev => « La cultura no debería ser un lujo reservado para los más ricos. »\n\nNada valioso habría existido realmente sin un acceso « fácil. »',
-      ar: 'اقتباس من HakitaDev => « لا ينبغي أن تكون الثقافة رفاهية ممن يستطيعون تحملها فقط. »\n\nلم يكن أي شيء ذي قيمة موجودًا حقًا لو لم يكن لدينا وصول "سهل".'
+      ar: 'اقتباس من HakitaDev => « لا ينبغي للثقافة أن تكون موجودة فقط لأولئك الذين يستطيعون تحمل تكاليفها. »\n\nلن يكون هناك شيء ذو قيمة حقيقية لو لم يكن لدينا إمكانية الوصول "السهل".'
     }
   },
   description: {
@@ -135,7 +135,7 @@ const TRANSLATIONS = {
       desc: 'Un marco de automatización de tareas y gestión de configuración, así como un lenguaje de scripting de Microsoft.',
     },
     ar: {
-      desc: 'إطار عمل لأتمتة المهام وإدارة التكوين ولغة برمجة نصية من مايكروسوفت.',
+      desc: 'إطار عمل لإدارة التكوين وأتمتة المهام ولغة البرمجة النصية من مايكروسوفت.',
     },
   },
   bash: {
@@ -149,7 +149,7 @@ const TRANSLATIONS = {
       desc: 'Un shell Unix y un lenguaje de comandos utilizado como shell predeterminado en muchos sistemas Linux.',
     },
     ar: {
-      desc: 'صدفة يونكس ولغة أوامر تُستخدم كالقشرة الافتراضية في العديد من أنظمة لينكس.',
+      desc: 'بيئة Unix ولغة الأوامر المستخدمة كبيئة افتراضية في العديد من أنظمة Linux.',
     },
   },
   azure: {
@@ -206,7 +206,7 @@ const TRANSLATIONS = {
       desc: 'Asistente de productividad impulsado por IA integrado en las aplicaciones de Microsoft 365 para ayudar con la redacción, el análisis y la automatización.',
     },
     ar: {
-      desc: 'مساعد إنتاجية مدعوم بالذكاء الاصطناعي ومتكامل مع تطبيقات Microsoft 365 للمساعدة في الكتابة والتحليل والأتمتة.',
+      desc: 'مساعد إنتاجية مدعوم بالذكاء الاصطناعي ومتكامل مع تطبيقات مايكروسوفت 365 للمساعدة في الكتابة والتحليل والأتمتة.',
     },
   },
   youtube: {
@@ -234,7 +234,7 @@ const TRANSLATIONS = {
       desc: 'Bienvenido a mi sitio web de portafolio con una terminal interactiva.',
     },
     ar: {
-      desc: 'مرحبًا بك في موقع ملفّي الشخصي مع طرفية تفاعلية.',
+      desc: 'مرحبًا بك في موقع ملفّي الشخصي مع بيئة تفاعلية.',
     },
   },
   lhc: {
@@ -248,7 +248,7 @@ const TRANSLATIONS = {
       desc: 'Let him cook.',
     },
     ar: {
-      desc: 'Let him cook.',
+      desc: 'دعيه يطبخ.',
     },
   },
   bbb: {
@@ -262,7 +262,7 @@ const TRANSLATIONS = {
       desc: 'My fuel.',
     },
     ar: {
-      desc: 'My fuel.',
+      desc: 'وقودي.',
     },
   },
   novels: {
